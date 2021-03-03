@@ -1,0 +1,16 @@
+#
+# ~/.bashrc.aliases
+#
+
+alias ls='/usr/bin/ls --color=auto'
+alias ll='/usr/bin/ls -lah --color=auto'
+
+alias grep='grep --color=auto'
+
+alias pacrepo='/usr/bin/sudo /usr/bin/reflector -l 20 -f 10 --save /etc/pacman.d/mirrorlist'
+alias pacman='/usr/bin/sudo /usr/bin/pacman'
+alias journalctl='/usr/bin/sudo /usr/bin/journalctl'
+alias systemctl='/usr/bin/sudo /usr/bin/systemctl'
+alias se='/usr/bin/ls /usr/bin | /usr/bin/grep --color=auto '
+alias mkdir='/usr/bin/mkdir -pv'
+
