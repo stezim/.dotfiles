@@ -15,6 +15,7 @@ PROMPT='$(username)'
 PROMPT+='$(hostname)' 
 PROMPT+='$(directory) '
 PROMPT+='$(git_prompt_info)'
+PROMPT+='%{$reset_color%}'
 RPROMPT='%(?.🤓.🤬%f)'
 
 ZLE_RPROMPT_INDENT=0
